@@ -1,0 +1,1 @@
+teethtest.textContent = 'hello';
