@@ -1,10 +1,8 @@
 body {
-  width: 90vw; height: 90vh;
+  width: 100vw; height: 100vh;
   margin: 0;
   padding: 0;
   overflow: hidden;
-  border-color: blue;
-  border: dashed;
 }
 
 #teethtest {
@@ -14,9 +12,7 @@ body {
 
   font-size: 10vmin;
   font-family: Microsoft JhengHei, Arial, Helvetica, sans-serif;
-
-  border: dashed;
-  border-color: red;
+  text-align: center;
 
   display: flex;
   justify-content: center; /* align horizontal */
@@ -24,7 +20,6 @@ body {
 }
 
 #button_div{
-  border: dashed;
   position: relative; top: 30%;
   display: flex;
 

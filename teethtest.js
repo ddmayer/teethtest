@@ -21,3 +21,7 @@ if (que == 0) {
     var s = Math.floor(Math.random() * 7);
     teethtest.textContent = a[x] + b[y] + e[s];
 }
+
+function reload() {
+    location.reload()
+}
