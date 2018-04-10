@@ -6,7 +6,7 @@ body {
 }
 
 #teethtest {
-  width: 100%; height: 30%;
+  width: 95%; height: 30%;
   position: relative; top: 30%;
   overflow: hidden;
 
@@ -20,14 +20,22 @@ body {
 }
 
 #button_div{
-  border: dashed;
   display: flex;
   align-items: center; /* align vertical */
   justify-content: center; /* align horizontal */
   position: relative; top: 30%;
-  /*  */
-  height: 15%;
+  width: 10%;
+  margin: auto; /*align button center?*/
 }
-.btn-block {
-  height: 100% !important;
+
+@media (max-width: 768px) {
+  #button_div {
+    height: 8%;
+    width: 90%;
+    top: 52%;
+  }
+  .btn-block {
+    height: 100% !important;
+  }
 }
+
