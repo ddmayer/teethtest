@@ -20,9 +20,14 @@ body {
 }
 
 #button_div{
-  position: relative; top: 30%;
+  border: dashed;
   display: flex;
-
-  justify-content: center; /* align horizontal */
   align-items: center; /* align vertical */
+  justify-content: center; /* align horizontal */
+  position: relative; top: 30%;
+  /*  */
+  height: 15%;
+}
+.btn-block {
+  height: 100% !important;
 }
