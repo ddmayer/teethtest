@@ -21,9 +21,9 @@ function next() {
             var z = Math.floor(Math.random() * 5);
         }
         var s = Math.floor(Math.random() * 3);
-        teethtest.textContent = a[x] + b[y] + c[z] + d[s];
+        document.querySelector('#teethtest').innerHTML = a[x] + b[y] + c[z] + d[s];
     } else {
         var s = Math.floor(Math.random() * 7);
-        teethtest.textContent = a[x] + b[y] + e[s];
+        document.querySelector('#teethtest').innerHTML = a[x] + b[y] + e[s];
     }
 }
